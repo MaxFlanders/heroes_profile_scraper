@@ -4,7 +4,7 @@ Some scripts that scrape HotS data from heroesprofile.com using the beautifulsou
 #### How to use
 1. Create a new environment (example uses conda).
     ```shell script
-    conda create -n heroes_profile_scraper python=3.7
+    conda create -n heroes_profile_scraper python=3.8
     ```
 
 2. Activate the environment.
