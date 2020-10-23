@@ -4,12 +4,12 @@ Some scripts that scrape HotS data from heroesprofile.com using the beautifulsou
 #### How to use
 1. Create a new environment (example uses conda).
     ```shell script
-    conda create -n heroes_profile_scraper python=3.8
+    conda create -n hots_scrapers python=3.8
     ```
 
 2. Activate the environment.
     ```shell script
-    conda activate heroes_profile_scraper
+    conda activate hots_scrapers
     ```
 
 3. Install libraries to environment from requirements.txt.
@@ -19,7 +19,9 @@ Some scripts that scrape HotS data from heroesprofile.com using the beautifulsou
 
 4. Run script.
     ```shell script
-   python main.py
+   python heroes_profile.py
+   # OR
+   python icy_veins.py
    ```
    
 The functions `get_heroes` and `get_hero_top_5_matchups` scrape
